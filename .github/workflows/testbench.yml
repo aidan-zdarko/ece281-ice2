@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Setup GHDL nightly
-        uses: ghdl/setup-ghdl-ci@nightly
+        uses: ghdl/setup-ghdl-ci@v1
         with:
           backend: llvm
       - run: ghdl --version
